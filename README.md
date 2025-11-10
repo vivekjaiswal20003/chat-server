@@ -48,7 +48,7 @@ A simple, real-time TCP chat server built with Node.js.
 1. **Open a new terminal and connect to the server using `netcat`:**
 
    ```bash
-   nc localhost 4000
+   ncat localhost 4000
    ```
 
 2. **Log in with a unique username:**
@@ -86,7 +86,7 @@ A simple, real-time TCP chat server built with Node.js.
 **Client 1:**
 
 ```
-$ nc localhost 4000
+$ ncat localhost 4000
 LOGIN Naman
 OK
 MSG hi everyone!
@@ -96,7 +96,7 @@ MSG how are you?
 **Client 2:**
 
 ```
-$ nc localhost 4000
+$ ncat localhost 4000
 LOGIN Yudi
 OK
 MSG hello Naman!
